@@ -23,5 +23,5 @@ steps:
 - task: NexusIqPipelineTask@1
   inputs:
     nexusIqService: 'iq'
-    applicationId: "juiceshop"
+    applicationId: "juice-shop"
     stage: 'Build'
