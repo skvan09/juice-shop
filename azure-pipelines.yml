@@ -20,8 +20,7 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-- task: NexusIqPipelineTask@1
+- task: SonatypeCloudPipelineTask@0
   inputs:
-    nexusIqService: 'iq'
-    applicationId: 'juice-shop'
+    SonatypeCloudService: 'julytest'
     stage: 'Build'
